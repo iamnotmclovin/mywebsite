@@ -24,3 +24,10 @@ p {
     margin: 1.5em auto;
     max-width: 800px;
 }
+img {
+    display: block;
+}
+
+img[src$=".gif"] {
+    margin: 0 auto;
+}
